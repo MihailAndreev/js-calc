@@ -49,7 +49,7 @@ document.addEventListener('keypress', function(event) {
 document.addEventListener('keydown', function(event) {
     const key = event.key;
     
-    if (/[0-9+\-*/.]/g.test(key)) {
+    if (/[0-9+\-*/.()]/g.test(key)) {
         appendToDisplay(key);
     } else if (key === 'Backspace') {
         // Remove last character
