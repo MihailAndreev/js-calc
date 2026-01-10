@@ -119,6 +119,10 @@ h1 {
     grid-column: 1 / 3;
 }
 
+.btn:nth-child(13) {
+    grid-column: 3;
+}
+
 @media (max-width: 400px) {
     .calculator {
         width: 100%;
